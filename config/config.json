@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-apps-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxApps/SpfxAppsWebPart.js",
+          "manifest": "./src/webparts/spfxApps/SpfxAppsWebPart.manifest.json"
+        }
+      ]
+    },
+    "spfx-mails-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxMails/SpfxMailsWebPart.js",
+          "manifest": "./src/webparts/spfxMails/SpfxMailsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxAppsWebPartStrings": "lib/webparts/spfxApps/loc/{locale}.js",
+    "SpfxMailsWebPartStrings": "lib/webparts/spfxMails/loc/{locale}.js"
+  }
+}

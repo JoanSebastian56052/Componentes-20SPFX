@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "73528984-cce7-4a52-b3c9-24d0f109a0d5",
+  "alias": "SpfxMailsWebPart",
+  "componentType": "WebPart",
+
+ "version": "*",
+  "manifestVersion": 2,
+
+"requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "spfx.mails" },
+    "description": { "default": "spfx.mails description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "spfx.mails"
+    }
+  }]
+}
