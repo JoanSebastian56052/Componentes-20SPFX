@@ -22,6 +22,7 @@
   "externals": {},
   "localizedResources": {
     "SpfxAppsWebPartStrings": "lib/webparts/spfxApps/loc/{locale}.js",
-    "SpfxMailsWebPartStrings": "lib/webparts/spfxMails/loc/{locale}.js"
+    "SpfxMailsWebPartStrings": "lib/webparts/spfxMails/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
   }
 }

@@ -22,7 +22,8 @@ export default class SpfxAppsWebPart extends BaseClientSideWebPart<ISpfxAppsWebP
       SpfxApps,
       {
         description: this.properties.description,
-        context: this.context
+        context: this.context,
+        firstItemSelect: "0"
       }
     );
 

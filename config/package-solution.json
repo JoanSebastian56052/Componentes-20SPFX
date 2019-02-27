@@ -25,10 +25,6 @@
       },
       {
         "resource": "Microsoft Graph",
-        "scope": "Application.ReadWrite.All"
-      },
-      {
-        "resource": "Microsoft Graph",
         "scope": "Calendars.ReadWrite"
       },
       {

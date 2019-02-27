@@ -1,3 +1,5 @@
+import { Item } from "sp-pnp-js";
+
 export interface ISpfxAppsState {
     myApps: Element[],
     myPortal: Element[],
@@ -9,5 +11,12 @@ export interface ISpfxAppsState {
     myListApps: any[],
     myListPortals: any[],
     listCountries: any[],
-    listCompanies: any[]
+    selectCountries: Element[],
+    listCompanies: any[],
+    selectCompanies: any[],
+    countrie: string,
+    company: string,
+    keyWord: string,
+    alert: any,
+    listApps: any[]
 }
